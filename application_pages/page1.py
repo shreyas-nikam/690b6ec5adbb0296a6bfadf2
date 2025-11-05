@@ -10,7 +10,6 @@ import warnings
 
 # Suppress warnings
 warnings.filterwarnings('ignore')
-st.set_option('deprecation.showPyplotGlobalUse', False) # Suppress Matplotlib global use warning
 
 def run_page1():
     st.title("Human-in-the-Loop Override Simulator: Clinical Decision Support")
